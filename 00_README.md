@@ -9,6 +9,7 @@ This is where I track my progress as I learn and practice C++ programming — fr
 ## Projects so far:
 - ✅ Simple calculator
 - ✅ Pizza simulator
+- ✅ Very simple countdown
 - ⏳ More coming soon...
 
 Feel free to follow along or suggest improvements!
