@@ -6,16 +6,16 @@ int main() {
 
     cout << "🚀 Countdown Timer" << endl;
 
-    // Input validation loop
+
     while (true) {  // Infinite loop — we'll break only when input is valid
         cout << "Enter the number of seconds to count down from: ";
         cin >> seconds;
 
         if (seconds > 0) {
-            break;  // Valid input — exit the loop
+            break;  
         }
 
-        // Invalid input — show error and loop again
+        
         cout << "Invalid input: Please enter a positive number (1 or higher)." << endl;
         cout << "Let's try again...\n" << endl;
     }
