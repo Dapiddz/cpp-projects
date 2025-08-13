@@ -2,24 +2,30 @@
 #include<cmath>
 using namespace std;
 int main(){
-  int x, y, z;
+  double x, y, z;
   char op;
-  cout << "Please enter X and Y" << endl;
-  cin >> x >> y;
+  cout << "************CALCULATOR************"<< endl;
+  cout << "Please enter 1 : " ;
+  cin >> x;
+  cout << "Please enter 2 : ";
+  cin >> y;
   cout << "Enter operator (+, -, *, /): " << endl;
   cin >> op;
   if(op == '+'){
-      cout << x + y << endl;
+      z = x + y;
+      cout << "The result is : " << z << endl;
   }
   else if(op == '-'){
-      cout << x - y << endl;
+      z = x - y;
+      cout << "The result is : " << z << endl;
   }
   else if(op == '*'){
-      cout << x * y << endl;
+      z = x * y;
+      cout << "The result is : " << z << endl;
   }
   else if(op == '/'){
       z = round(x/double(y));
-      cout << z << endl;
+      cout << "The result is: " <<  z << endl;
   }
   else{ cout << "Invalid operator";}
   return 0;
